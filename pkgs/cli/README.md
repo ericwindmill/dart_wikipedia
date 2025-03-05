@@ -2,6 +2,8 @@
 
 Prints Wikipedia articles to the terminal.
 
+<img src="../../docs/cli-screenshot.png" width="400">
+
 ![cli screenshot](../../docs/cli-screenshot.png)
 
 
