@@ -2,7 +2,7 @@
 
 Prints Wikipedia articles to the terminal.
 
-![cli screenshot][../../docs/cli-screenshot.png]
+![cli screenshot](../../docs/cli-screenshot.png)
 
 
 
