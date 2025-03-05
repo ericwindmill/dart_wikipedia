@@ -2,11 +2,7 @@
 
 Prints Wikipedia articles to the terminal.
 
-<img src="../../docs/cli-screenshot.png" width="400">
-
-![cli screenshot](../../docs/cli-screenshot.png)
-
-
+<img src="../../docs/cli-screenshot.png" width="600">
 
 ```text
 Usage: dart bin/cli.dart <command> [commandArg?] [...options?] 
