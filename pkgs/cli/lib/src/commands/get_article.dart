@@ -38,8 +38,8 @@ class GetArticleCommand extends Command<String> {
       final List<Article> articles = await getArticleByTitle(title);
       // API returns a list of articles, but we only care about the closest hit.
       final article = articles.first;
-      final buffer = StringBuffer('${article.title.titleText}\n');
-      buffer.write(article.extract);
+      final buffer = StringBuffer('\n=== ${article.title.titleText}===\n');
+      buffer.write(article.extract.split(' ').take(500).join(' '));
       return buffer.toString();
     } on HttpException catch (e) {
       logger
