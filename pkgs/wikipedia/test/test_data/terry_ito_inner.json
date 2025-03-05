@@ -1,0 +1,54 @@
+{
+  "text": "Terry Ito, Japanese director, producer, and critic",
+  "pages": [
+    {
+      "type": "standard",
+      "title": "Terry_Ito",
+      "displaytitle": "<span class=\"mw-page-title-main\">Terry Ito</span>",
+      "namespace": {
+        "id": 0,
+        "text": ""
+      },
+      "wikibase_item": "Q11319423",
+      "titles": {
+        "canonical": "Terry_Ito",
+        "normalized": "Terry Ito",
+        "display": "<span class=\"mw-page-title-main\">Terry Ito</span>"
+      },
+      "pageid": 47948662,
+      "thumbnail": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Terry_Ito_2017.jpg/320px-Terry_Ito_2017.jpg",
+        "width": 320,
+        "height": 320
+      },
+      "originalimage": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/6/60/Terry_Ito_2017.jpg",
+        "width": 539,
+        "height": 539
+      },
+      "lang": "en",
+      "dir": "ltr",
+      "revision": "1081006530",
+      "tid": "a117c0ef-b447-11ec-9e57-3d37822dc0c8",
+      "timestamp": "2022-04-04T18:47:08Z",
+      "content_urls": {
+        "desktop": {
+          "page": "https://en.wikipedia.org/wiki/Terry_Ito",
+          "revisions": "https://en.wikipedia.org/wiki/Terry_Ito?action=history",
+          "edit": "https://en.wikipedia.org/wiki/Terry_Ito?action=edit",
+          "talk": "https://en.wikipedia.org/wiki/Talk:Terry_Ito"
+        },
+        "mobile": {
+          "page": "https://en.m.wikipedia.org/wiki/Terry_Ito",
+          "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Terry_Ito",
+          "edit": "https://en.m.wikipedia.org/wiki/Terry_Ito?action=edit",
+          "talk": "https://en.m.wikipedia.org/wiki/Talk:Terry_Ito"
+        }
+      },
+      "extract": "Teruo Ito , better known as Terry Ito , is a Japanese director, television producer, critic, and writer. His name \"Terry\" comes from his first name, \"Teruo\". His ancestral home is in Yokoshibahikari, Sanbu District, Chiba Prefecture.",
+      "extract_html": "<p><b>Teruo Ito</b><span style=\"font-weight:normal\"> </span>, better known as <b>Terry Ito</b><span style=\"font-weight:normal\"> </span>, is a Japanese director, television producer, critic, and writer. His name \"Terry\" comes from his first name, \"Teruo\". His ancestral home is in Yokoshibahikari, Sanbu District, Chiba Prefecture.</p>",
+      "normalizedtitle": "Terry Ito"
+    }
+  ],
+  "year": 1949
+}

@@ -1,0 +1,96 @@
+{
+  "text": "Brock Purdy, American football player",
+  "pages": [
+    {
+      "type": "standard",
+      "title": "Brock_Purdy",
+      "displaytitle": "<span class=\"mw-page-title-main\">Brock Purdy</span>",
+      "namespace": {
+        "id": 0,
+        "text": ""
+      },
+      "wikibase_item": "Q71605297",
+      "titles": {
+        "canonical": "Brock_Purdy",
+        "normalized": "Brock Purdy",
+        "display": "<span class=\"mw-page-title-main\">Brock Purdy</span>"
+      },
+      "pageid": 62106104,
+      "thumbnail": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BrockPurdy2021_%28cropped%29.jpg/320px-BrockPurdy2021_%28cropped%29.jpg",
+        "width": 320,
+        "height": 427
+      },
+      "originalimage": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/4/49/BrockPurdy2021_%28cropped%29.jpg",
+        "width": 903,
+        "height": 1205
+      },
+      "lang": "en",
+      "dir": "ltr",
+      "revision": "1264914112",
+      "tid": "34bcdec9-c1af-11ef-8d34-c28415bd3ced",
+      "timestamp": "2024-12-24T04:26:12Z",
+      "description": "American football player (born 1999)",
+      "description_source": "local",
+      "content_urls": {
+        "desktop": {
+          "page": "https://en.wikipedia.org/wiki/Brock_Purdy",
+          "revisions": "https://en.wikipedia.org/wiki/Brock_Purdy?action=history",
+          "edit": "https://en.wikipedia.org/wiki/Brock_Purdy?action=edit",
+          "talk": "https://en.wikipedia.org/wiki/Talk:Brock_Purdy"
+        },
+        "mobile": {
+          "page": "https://en.m.wikipedia.org/wiki/Brock_Purdy",
+          "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Brock_Purdy",
+          "edit": "https://en.m.wikipedia.org/wiki/Brock_Purdy?action=edit",
+          "talk": "https://en.m.wikipedia.org/wiki/Talk:Brock_Purdy"
+        }
+      },
+      "extract": "Brock Purdy is an American professional football quarterback for the San Francisco 49ers of the National Football League (NFL). He played college football for the Iowa State Cyclones and was selected by the 49ers with the final pick in the 2022 NFL draft, becoming that year's Mr. Irrelevant.",
+      "extract_html": "<p><b>Brock Purdy</b> is an American professional football quarterback for the San Francisco 49ers of the National Football League (NFL). He played college football for the Iowa State Cyclones and was selected by the 49ers with the final pick in the 2022 NFL draft, becoming that year's Mr. Irrelevant.</p>",
+      "normalizedtitle": "Brock Purdy"
+    },
+    {
+      "type": "standard",
+      "title": "December_27",
+      "displaytitle": "<span class=\"mw-page-title-main\">December 27</span>",
+      "namespace": {
+        "id": 0,
+        "text": ""
+      },
+      "wikibase_item": "Q2800",
+      "titles": {
+        "canonical": "December_27",
+        "normalized": "December 27",
+        "display": "<span class=\"mw-page-title-main\">December 27</span>"
+      },
+      "pageid": 8452,
+      "lang": "en",
+      "dir": "ltr",
+      "revision": "1265453422",
+      "tid": "e7c642ee-c3ec-11ef-9816-52fdd83f91a0",
+      "timestamp": "2024-12-27T00:52:54Z",
+      "description": "Day of the year",
+      "description_source": "local",
+      "content_urls": {
+        "desktop": {
+          "page": "https://en.wikipedia.org/wiki/December_27",
+          "revisions": "https://en.wikipedia.org/wiki/December_27?action=history",
+          "edit": "https://en.wikipedia.org/wiki/December_27?action=edit",
+          "talk": "https://en.wikipedia.org/wiki/Talk:December_27"
+        },
+        "mobile": {
+          "page": "https://en.m.wikipedia.org/wiki/December_27",
+          "revisions": "https://en.m.wikipedia.org/wiki/Special:History/December_27",
+          "edit": "https://en.m.wikipedia.org/wiki/December_27?action=edit",
+          "talk": "https://en.m.wikipedia.org/wiki/Talk:December_27"
+        }
+      },
+      "extract": "December 27 is the 361st day of the year in the Gregorian calendar; four days remain until the end of the year.",
+      "extract_html": "<p><b>December 27</b> is the 361st day of the year in the Gregorian calendar; four days remain until the end of the year.</p>",
+      "normalizedtitle": "December 27"
+    }
+  ],
+  "year": 1999
+}

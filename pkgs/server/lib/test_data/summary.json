@@ -1,0 +1,39 @@
+{
+  "type": "standard",
+  "title": "Dart (programming language)",
+  "displaytitle": "<span class=\"mw-page-title-main\">Dart (programming language)</span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q406009",
+  "titles": {
+    "canonical": "Dart_(programming_language)",
+    "normalized": "Dart (programming language)",
+    "display": "<span class=\"mw-page-title-main\">Dart (programming language)</span>"
+  },
+  "pageid": 33033735,
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1259309990",
+  "tid": "671bc7c6-aa67-11ef-aa2a-7c1da4fbe8fb",
+  "timestamp": "2024-11-24T13:24:16Z",
+  "description": "Programming language",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Dart_(programming_language)",
+      "revisions": "https://en.wikipedia.org/wiki/Dart_(programming_language)?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Dart_(programming_language)?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Dart_(programming_language)"
+    },
+    "mobile": {
+      "page": "https://en.m.wikipedia.org/wiki/Dart_(programming_language)",
+      "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Dart_(programming_language)",
+      "edit": "https://en.m.wikipedia.org/wiki/Dart_(programming_language)?action=edit",
+      "talk": "https://en.m.wikipedia.org/wiki/Talk:Dart_(programming_language)"
+    }
+  },
+  "extract": "Dart is a programming language designed by Lars Bak and Kasper Lund and developed by Google. It can be used to develop web and mobile apps as well as server and desktop applications.",
+  "extract_html": "<p><b>Dart</b> is a programming language designed by Lars Bak and Kasper Lund and developed by Google. It can be used to develop web and mobile apps as well as server and desktop applications.</p>"
+}

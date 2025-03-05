@@ -1,0 +1,24 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "normalized": [
+      {
+        "from": "Lewis_W._Green",
+        "to": "Lewis W.Green"
+      }
+    ],
+    "pages": {
+      "39015616": {
+        "pageid": 39015616,
+        "ns": 0,
+        "title": "Lewis W. Green",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lewis_W_Green.png/50px-Lewis_W_Green.png",
+          "width": 50,
+          "height:": 61
+        },
+        "pageimage": "Lewis_W_Green.png"
+      }
+    }
+  }
+}
