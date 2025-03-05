@@ -1,7 +1,5 @@
 # Dart Wikipedia - Dart and Flutter Getting Started
 
----
-
 A collection of Dart and Flutter programs that make up the combined (forthcoming) Dart and Flutter getting started experiences.
 
 ## Packages
