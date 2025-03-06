@@ -87,11 +87,10 @@ class CommandRunner<T> {
   /// ```bash
   /// $ dart <executable> <command> --<option> "arg" --<flag>
   /// ```
-  ArgResults parse(List<String> input, {ArgResults? argResults}) {
-    ArgResults results = argResults ?? ArgResults();
+  ArgResults parse(List<String> input) {
+    ArgResults results = ArgResults();
     if (input.isEmpty) return results;
 
-    // Section: handle command
     if (_commands.containsKey(input.first)) {
       results.command = _commands[input.first];
       input = input.sublist(1);

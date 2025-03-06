@@ -35,7 +35,6 @@ Future<SearchResults> search(String searchTerm) async {
       );
     }
   } on FormatException {
-    // todo: log
     rethrow;
   } finally {
     client.close();

@@ -29,8 +29,9 @@ Future<Summary> getRandomArticleSummary() async {
         'statusCode=${response.statusCode}, body=${response.body}',
       );
     }
-  } on Exception catch (error) {
-    throw Exception('Unexpected error - $error');
+  } on FormatException {
+    // todo: log exceptions
+    rethrow;
   } finally {
     client.close();
   }
@@ -55,8 +56,9 @@ Future<Summary> getArticleSummaryByTitle(String articleTitle) async {
         'statusCode=${response.statusCode}, body=${response.body}',
       );
     }
-  } on Exception catch (error) {
-    throw Exception('Unexpected error - $error');
+  } on FormatException {
+    // todo: log exceptions
+    rethrow;
   } finally {
     client.close();
   }

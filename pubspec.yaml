@@ -8,3 +8,4 @@ workspace:
   - pkgs/flutter
   - pkgs/server
   - pkgs/wikipedia
+  - pkgs/web_app

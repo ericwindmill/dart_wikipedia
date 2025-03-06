@@ -11,11 +11,13 @@ void main(List<String> arguments) async {
           onError: (Object error) {
             if (error is Error) {
               errorLogger.severe(
-                '[Error!] ${error.toString()}\n${error.stackTrace}',
+                '[Error] ${error.toString()}\n${error.stackTrace}',
               );
               throw error;
             }
-            // todo: handle exceptions
+            if (error is Exception) {
+              errorLogger.warning(error);
+            }
           },
         )
         ..addCommand(HelpCommand())
