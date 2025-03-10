@@ -5,10 +5,10 @@
  */
 
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:http/http.dart' as http;
 
+import '../exceptions.dart';
 import '../model/event_type.dart';
 import '../model/on_this_day_timeline.dart';
 import '../util.dart';

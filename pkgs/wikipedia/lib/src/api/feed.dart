@@ -5,10 +5,10 @@
  */
 
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:http/http.dart' as http;
 
+import '../exceptions.dart';
 import '../model/feed.dart';
 import '../util.dart';
 

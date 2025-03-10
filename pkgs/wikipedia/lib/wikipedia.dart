@@ -8,6 +8,7 @@ export 'src/api/get_article.dart';
 export 'src/api/on_this_day_timeline.dart';
 export 'src/api/search.dart';
 export 'src/api/summary.dart';
+export 'src/exceptions.dart';
 export 'src/model/article.dart';
 export 'src/model/event_type.dart';
 export 'src/model/feed.dart';

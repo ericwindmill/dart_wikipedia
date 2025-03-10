@@ -5,7 +5,6 @@
  */
 
 import 'dart:async';
-import 'dart:io';
 
 import 'package:command_runner/command_runner.dart';
 import 'package:logging/logging.dart';
@@ -66,9 +65,9 @@ class SearchCommand extends Command<String> {
     } on HttpException catch (e) {
       logger
         ..warning(e.message)
-        ..warning(e.uri)
+        ..warning(e.statusCode)
         ..info(usage);
-      return e.message;
+      return e.message ?? 'HttpException';
     } on FormatException catch (e) {
       logger
         ..warning(e.message)
