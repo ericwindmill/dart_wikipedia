@@ -1,3 +1,9 @@
+/*
+ * // Copyright 2025 The Dart and Flutter teams. All rights reserved.
+ * // Use of this source code is governed by a BSD-style license that can be
+ * // found in the LICENSE file.
+ */
+
 import 'package:flutter/material.dart';
 
 enum BreakpointWidth {
@@ -11,12 +17,7 @@ enum BreakpointWidth {
   final double end;
 }
 
-/// Convenience class that provides screen-width breakpoints and
-/// based on Material 3 design spec. Also provides platform.
-///
-/// This is a simplified version of the same class in the
-/// Flutter Adaptive Scaffold package, made by the Flutter team.
-/// https://pub.dev/packages/flutter_adaptive_scaffold
+/// Convenience class that provides screen-width breakpoints and platform data.
 class Breakpoint {
   Breakpoint({
     required this.platform,
@@ -26,9 +27,9 @@ class Breakpoint {
     required this.spacing,
   });
 
-  factory Breakpoint.currentDevice(
-    BuildContext context,
-  ) => switch (MediaQuery.of(context).size.width) {
+  factory Breakpoint.current(BuildContext context) => switch (MediaQuery.of(
+    context,
+  ).size.width) {
     >= 0 && < 600 => Breakpoint.small(platform: Theme.of(context).platform),
     >= 600 && < 840 => Breakpoint.medium(platform: Theme.of(context).platform),
     _ => Breakpoint.large(platform: Theme.of(context).platform),
@@ -55,8 +56,6 @@ class Breakpoint {
 
   final BreakpointWidth width;
 
-  /// Margin for screens and other large views that run against the edges of
-  /// of the viewport
   final double margin;
 
   /// Padding within an element
@@ -74,4 +73,8 @@ class Breakpoint {
   static bool isCupertino(BuildContext context) {
     return cupertino.contains(Theme.of(context).platform);
   }
+
+  bool get isSmall => width == BreakpointWidth.small;
+  bool get isMedium => width == BreakpointWidth.medium;
+  bool get isLarge => width == BreakpointWidth.large;
 }
