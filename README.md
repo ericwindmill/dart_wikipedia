@@ -9,3 +9,4 @@ A collection of Dart and Flutter programs that make up the combined (forthcoming
 - `flutter` - A semi-faithful Flutter implementation of a portion of the [Wikipedia iOS app](https://apps.apple.com/us/app/wikipedia/id324715238). 
 - `server` - A [shelf]() server that acts as the backend server for the `flutter` app.
 - `wikipedia` A Dart package that contains models that match data from the Wikipedia API, and methods that fetch from with Wikipedia API.
+- `web_app` - An *extremely* simple web app built with `package:web`. Very much a WIP. No plans to include it in the Dart GSE at this time.

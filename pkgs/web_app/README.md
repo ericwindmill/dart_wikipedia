@@ -1,4 +1,9 @@
-A bare-bones Dart web app.
+
+# WIP
+
+An *extremely* simple web app built with `package:web`. Very much a WIP. No plans to include it in the Dart GSE at this time.
+
+--- 
 
 Uses [`package:web`](https://pub.dev/packages/web)
 to interop with JS and the DOM.
